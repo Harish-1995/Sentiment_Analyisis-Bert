@@ -5,10 +5,12 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from sklearn.preprocessing import LabelEncoder
-stop_words = set(stopwords.words('english'))
+
 
 nltk.download('stopwords')
 nltk.download('wordnet')
+
+stop_words = set(stopwords.words('english'))
 
 
 # regex_standardize
