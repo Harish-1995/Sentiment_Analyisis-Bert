@@ -67,9 +67,9 @@ prediction = prediction_pipeline(user_input)
 
 if st.button('submit'):
     if prediction[0] == 'positive':
-        st.success(f"{user_name} your emotion seems to be: {prediction[0]} 😎")
+        st.success(f"{user_name} \n your emotion seems to be: {prediction[0]} 😎")
     elif prediction[0] =='neutral':
-        st.warning(f"{user_name} your emotion seems to be: {prediction[0]} 😕")
+        st.warning(f"{user_name} \n your emotion seems to be: {prediction[0]} 😕")
     else:
-         st.error(f"{user_name} your emotion seems to be: {prediction[0]} 😞")
+         st.error(f"{user_name} \n your emotion seems to be: {prediction[0]} 😞")
 
