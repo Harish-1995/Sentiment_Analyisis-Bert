@@ -1,8 +1,9 @@
-streamlit
-sentence-transformers
-nltk
-pickle
-pandas
-numpy
-re
+pandas 
+numpy 
 scikit-learn
+tensorboard
+matplotlib
+streamlit
+nltk
+sentence-transformers
+tf_keras
